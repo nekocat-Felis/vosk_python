@@ -15,7 +15,7 @@ def main():
             output = rec.Result()
             json_dict = json.loads(output)
 
-    print(json.loads(rec.FinalResult()))
+    print(var(rec.FinalResult()))
 
 if __name__ == "__main__":
     main()
